@@ -1,12 +1,14 @@
 window:
-  decorations: none
-  startup_mode: maximized
-  opacity: 0.9
-  use_thin_strokes: true
+  decorations: buttonless
+  padding:
+    x: 10
+    y: 10
+    opacity: 0.9
 
 font:
   normal:
     family: Hack
+    style: Regular
   size: 18.0
 
 mouse:
@@ -47,10 +49,8 @@ colors:
 selection:
   save_to_clipboard: true
 
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+
 shell:
   program: /bin/zsh
-  args:
-    - -c
-    - tmux
-
-
