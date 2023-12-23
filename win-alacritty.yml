@@ -54,5 +54,6 @@ mouse_bindings:
   - { mouse: Middle, action: PasteSelection }
 
 shell:
-  program: C:\Windows\System32\cmd.exe
+  # program: C:\Windows\System32\cmd.exe
+  program: C:\\Windows\\System32\\wsl.exe
 
