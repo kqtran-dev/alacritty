@@ -1,5 +1,5 @@
 env:
-  TERM: xterm-256color
+  TERM: alacritty
 
 window:
   decorations: buttonless
@@ -58,3 +58,6 @@ mouse_bindings:
 
 shell:
   program: /bin/zsh
+  args:
+    - -c
+    - "tmux -u"
